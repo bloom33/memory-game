@@ -4,56 +4,62 @@
 //make two of each, because it's a matching game.//
 const cardArray = [
   {
-    name: 'fries',
-    img: 'images/fries.png'
+    name: "fries",
+    img: "images/fries.png"
   },
   {
-    name: 'fries',
-    img: 'images/fries.png'
-  },
-
-  {
-    name: 'cheeseburger',
-    img: 'images/cheeseburger.png'
-  },
-  {
-    name: 'cheeseburger',
-    img: 'images/cheeseburger.png'
+    name: "fries",
+    img: "images/fries.png"
   },
 
   {
-    name: 'hotdog',
-    img: 'images/hotdog.png'
+    name: "cheeseburger",
+    img: "images/cheeseburger.png"
   },
   {
-    name: 'hotdog',
-    img: 'images/hotdog.png'
-  },
-
-  {
-    name: 'ice-cream',
-    img: 'images/ice-cream.png'
-  },
-  {
-    name: 'ice-cream',
-    img: 'images/ice-cream.png'
+    name: "cheeseburger",
+    img: "images/cheeseburger.png"
   },
 
   {
-    name: 'milkshake',
-    img: 'images/milkshake.png'
+    name: "hotdog",
+    img: "images/hotdog.png"
   },
   {
-    name: 'milkshake',
-    img: 'images/milkshake.png'
+    name: "hotdog",
+    img: "images/hotdog.png"
   },
 
   {
-    name: 'pizza',
-    img: 'images/pizza.png'
+    name: "ice-cream",
+    img: "images/ice-cream.png"
   },
   {
-    name: 'pizza',
-    img: 'images/pizza.png'
+    name: "ice-cream",
+    img: "images/ice-cream.png"
+  },
+
+  {
+    name: "milkshake",
+    img: "images/milkshake.png"
+  },
+  {
+    name: "milkshake",
+    img: "images/milkshake.png"
+  },
+
+  {
+    name: "pizza",
+    img: "images/pizza.png"
+  },
+  {
+    name: "pizza",
+    img: "images/pizza.png"
   },
 ]
+
+
+//create game board.//
+
+//first, select element with "grid" class in DOM.//
+const grid = document.querySelector(".grid");
