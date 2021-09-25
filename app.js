@@ -59,7 +59,13 @@ const cardArray = [
 ]
 
 
-//create game board.//
-
 //first, select element with "grid" class in DOM.//
 const grid = document.querySelector(".grid");
+
+//then, create game board.//
+function createBoard() {
+  //loop through cardArray.//
+  for (let i = 0, i < cardArray.length; i++) {
+    
+  }
+}
